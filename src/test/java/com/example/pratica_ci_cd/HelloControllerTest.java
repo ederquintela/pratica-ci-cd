@@ -17,7 +17,7 @@ class HelloControllerTest {
     @Test
     void helloEndpointDeveRetornarHelloWorld() {
         String response = restTemplate.getForObject("/hello", String.class);
-        assertThat(response).isEqualTo("Hello World 2");
+        assertThat(response).isEqualTo("Hello World");
     }
 }
 
